@@ -100,7 +100,7 @@
 /// used for G0 rapid moves and as a cap for all other feedrates
 #define MAXIMUM_FEEDRATE_X      5200
 #define MAXIMUM_FEEDRATE_Y      4000 // 3000 volt a regi Y sinnel
-#define MAXIMUM_FEEDRATE_Z      1200
+#define MAXIMUM_FEEDRATE_Z       150
 #define MAXIMUM_FEEDRATE_E      1250
 
 /// Used when doing precision endstop search and as default feedrate.
@@ -274,8 +274,8 @@
 
 #define X_STEP_PIN                      DIO16
 #define X_DIR_PIN                       DIO17
-#define X_MIN_PIN                       DIO24
-#define X_MAX_PIN                       DIO25
+#define X_MIN_PIN                       DIO25
+#define X_MAX_PIN                       DIO24
 //#define   X_ENABLE_PIN                xxxx
 //#define   X_INVERT_DIR
 //#define   X_INVERT_MIN
@@ -284,8 +284,8 @@
 
 #define Y_STEP_PIN                      DIO18
 #define Y_DIR_PIN                       DIO19
-#define Y_MIN_PIN                       DIO26
-#define Y_MAX_PIN                       DIO27
+#define Y_MIN_PIN                       DIO27
+#define Y_MAX_PIN                       DIO26
 //#define   Y_ENABLE_PIN                xxxx
 //#define   Y_INVERT_DIR
 //#define   Y_INVERT_MIN
